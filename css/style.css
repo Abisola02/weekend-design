@@ -1,0 +1,75 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: url(../images/Untitled\ design\ \(9\).png);
+}
+ul{
+    list-style: none;
+    display: flex;
+    /* border: solid; */
+    
+}
+
+li{
+    padding-left: 30px;
+
+}
+.clearfix{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.logo{
+    width: 200px;
+    float: left;
+    padding-left: 150px;
+    /* border: solid; */
+}
+.logo img{
+    width: 150px;
+
+}
+
+.menu{
+    padding-left: 500px;
+    /* border: solid; */
+  
+    /* width: 70%; */
+    /* float: right; */
+}
+
+#content{
+    text-align: center;
+    padding-top: 150px;
+    margin-left: 100px;
+    float: left;
+}
+
+#shop{
+    width: 150px;
+    height: 30px;
+    background-color: purple;
+    color: white;
+    margin-top: 30px;
+}
+#login{
+    float: right;
+    margin: -30px;
+    width: 180px;
+    height: 40px;
+}
+#btn{
+    width: 100px;
+    height: 20px;
+    border-radius: 15px;
+}
+
+#bg-img{
+    float: right;
+    padding-left: 100px;
+    padding-top: 80px;
+    padding-right: 70px;
+}
